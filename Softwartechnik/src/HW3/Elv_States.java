@@ -12,6 +12,7 @@ public class Elv_States {
 	public Elv_States ()
 	{
 		current_State = Idle;
+	
 	}
 
 }

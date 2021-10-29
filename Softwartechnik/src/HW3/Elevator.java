@@ -13,7 +13,7 @@ public class Elevator{
 	System.out.println("*** Destination floor is: "+ dest_Floor);
 	arrive_atFloor();
 
-
+	
 	}
 
 	private void arrive_atFloor() {
