@@ -21,4 +21,7 @@ public class Professor extends Employee {
 	public void addNewCourse(Course pCourse) {
 		courses.add(pCourse);
 	}
+	
+	p
+	
 }
