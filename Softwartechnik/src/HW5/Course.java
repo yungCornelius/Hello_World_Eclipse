@@ -14,8 +14,8 @@ public class Course {
 
 	}
 
-	public Course(Integer pID, String pName, Integer pCap, Professor pProf) {
-		id = pID;
+	public Course(Integer id, String pName, Integer pCap, Professor pProf) {
+		this.id = id;
 		name = pName;
 		maxCapacity = pCap;
 		prof = pProf;
