@@ -17,8 +17,6 @@ import java.util.function.BiPredicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import java.util.Locale;
-
 public class CitationKeyBasedFileFinder {
 	private final boolean exactKeyOnly;
 
@@ -74,7 +72,7 @@ public class CitationKeyBasedFileFinder {
 			// probably a file belonging to another entry published in the same time / same
 			// name
 			char charAfterKey = filename.charAt(citeKey.length());
-			return !((List<Path>) CitationKeyGenerator.APPENDIX_CHARACTERS).contains(Character.toString(charAfterKey));
+			return !((List<String>) CitationKeyGenerator.APPENDIX_CHARACTERS).contains(Character.toString(charAfterKey));
 		}
 
 		return false;
